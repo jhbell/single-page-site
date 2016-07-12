@@ -1,0 +1,39 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html, body, .fullheight {
+    min-height: 100vh !important;
+    height: 100vh;
+    background: #444;
+}
+
+.fullheight {
+    background: url('../img/intro.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    padding: 20px;
+    position: relative;
+}
+
+.intro {
+    color: #fff;
+    padding-top: 30vh;
+}
+
+.fadeOnLoad {
+    display: none;
+}
+
+.container {
+    max-width: 1256;
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size:6em;
+}
