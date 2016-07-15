@@ -3,10 +3,12 @@
     padding: 0;
 }
 
+/* Cover */
 html, body, .fullheight {
     min-height: 100vh !important;
     height: 100vh;
     background: #444;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fullheight {
@@ -15,25 +17,126 @@ html, body, .fullheight {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     padding: 20px;
     position: relative;
 }
 
 .intro {
     color: #fff;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 .fadeOnLoad {
     display: none;
 }
 
+.delayedFade {
+    display: none;
+}
+
+a.btn-link {
+    border: 1px solid #ccc;
+    font-size: 1.4em;
+    color: #ccc;
+}
+
+a.btn-link:hover {
+    border-color: #fff;
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
-    max-width: 1256;
+    max-width: 950px;
+}
+
+#about {
+    background: #ddd;
+}
+
+#education {
+    background: #fff;
+    height: 100vh;
+}
+
+#experience {
+    background: #ddd;
+    height: 100vh;
+}
+
+#skills {
+    background: #fff;
+    height: 100vh;
+}
+
+#projects {
+    background: #ddd;
+    height: 100vh;
+}
+
+nav.quickNav {
+    background: none;
+    border: none;
+}
+
+.navbar-inverse {
+    margin-bottom: 0;
+}
+
+.centerNav {
+    display: inline-block;
+    float: none;
+    font-size: 1.5em;
+}
+
+.centerCollapse {
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bbb;
+}
+
+button.navbar-toggle {
+    border-radius: 0;
+}
+
+ul.nav a.quickNavLink {
+    color: #ccc;
+}
+
+ul.nav a.quickNavLink:hover {
+    color: #fff;
+    background: none;
 }
 
 h1 {
     font-family: 'Josefin Slab', serif;
     font-size:6em;
+}
+
+.infoHeader {
+    font-family: 'Josefin Slab', serif;
+    font-size: 5em;
+}
+
+hr {
+    border-top: 5px solid #eee;
+}
+
+.well {
+    border-radius: 0;
+    border: none;
+}
+
+.right {
+    float: right;
 }
