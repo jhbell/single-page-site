@@ -56,11 +56,6 @@ a.btn-link:hover {
     background: #ddd;
 }
 
-#education {
-    background: #fff;
-    height: 100vh;
-}
-
 #experience {
     background: #ddd;
     height: 100vh;
@@ -135,8 +130,24 @@ hr {
 .well {
     border-radius: 0;
     border: none;
+    margin-bottom: 50px;
 }
 
-.right {
-    float: right;
+.timePeriod {
+    color: #888;
+}
+
+#education {
+    background: url('../img/tower.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding: 20px;
+    position: relative;
+}
+
+.indent {
+    margin-left: 10%;
 }
