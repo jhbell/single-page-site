@@ -61,8 +61,11 @@ a.btn-link:hover {
 }
 
 #skills {
-    background: #fff;
-    height: 100vh;
+    background: url('../img/bridge.jpg') no-repeat center center fixed;
+}
+
+#skills h1 {
+    color: #fff;
 }
 
 #projects {
@@ -151,7 +154,28 @@ hr {
     margin-left: 10%;
 }
 
-@media (max-width: 890px) {
+.skill {
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    margin: 10px;
+}
+
+.skillbar {
+    height: 25px;
+    border: 1px solid #888;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.barpercent {
+    background-color: #06c;
+    height: 23px;
+}
+
+@media (max-width: 930px) {
     .navbar-header {
         float: none;
     }

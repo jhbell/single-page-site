@@ -3,6 +3,11 @@ $(document).ready(function() {
     $(".fadeOnLoad").fadeIn(2000);
     $(".delayedFade").delay(1000).fadeIn(1000);
 
+    $(".barpercent").each(function() {
+        var dataWidth = $(this).attr("data-percent");
+        $(this).width(dataWidth);
+    });
+
     // Fix scrollbar
     $(window).bind('scroll', function() {
         var navHeight = $(window).height();
