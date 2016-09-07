@@ -117,12 +117,16 @@ ul.nav a.quickNavLink:hover {
 
 h1 {
     font-family: 'Josefin Slab', serif;
-    font-size:6em;
+    font-size:3.8em;
+}
+
+h2 {
+    font-size: 1.5em; 
 }
 
 .infoHeader {
     font-family: 'Josefin Slab', serif;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 hr {
@@ -176,6 +180,9 @@ hr {
 }
 
 @media (max-width: 930px) {
+    body {
+        font-size: 14px;
+    }
     .navbar-header {
         float: none;
     }
